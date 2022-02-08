@@ -1,0 +1,30 @@
+{
+    "name": "planar-compass-classes",
+    "title": "Planar Compass Class Options",
+    "description": "This is a compendium which incorporates the Planar Compass Zine Classes from the great minds at Planar Compass.",
+    "author": "JustintheJaguar",
+    "version": "1.0",
+    "minimumCoreVersion": "0.5.5",
+    "compatibleCoreVersion": "9",
+    "packs": [
+        {
+            "name": "items",
+            "label": "Planar Compass Classes and Psionics",
+            "path": "packs/items.db",
+            "entity": "Item",
+            "type": "Item",
+            "module": "planar-compass-classes"
+        },
+        {
+            "name": "journalentries",
+            "label": "Planar Compass Progression and Psionics",
+            "path": "packs/journalentries.db",
+            "entity": "JournalEntry",
+            "type": "JournalEntry",
+            "module": "planar-compass-classes"
+        }
+    ],
+  "url": "",
+  "manifest": "",
+  "download": ""
+}
