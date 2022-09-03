@@ -5,13 +5,24 @@
     "author": "JustintheJaguar",
     "version": "1.0",
     "minimumCoreVersion": "0.5.5",
-    "compatibleCoreVersion": "9",
+    "compatibleCoreVersion": "10",
+    "compatibility": {
+        "minimum": "10",
+        "verified": "10.284",
+        "maximum": "10"
+      },
+      "authors": [
+        {
+          "name": "JustintheJaguar"
+        }
+      ],
     "packs": [
         {
             "name": "items",
             "label": "Planar Compass Classes and Psionics",
             "path": "packs/items.db",
             "entity": "Item",
+            "system": ["ose"],
             "type": "Item",
             "module": "planar-compass-classes"
         },
@@ -20,6 +31,7 @@
             "label": "Planar Compass Progression and Psionics",
             "path": "packs/journalentries.db",
             "entity": "JournalEntry",
+            "system": ["ose"],
             "type": "JournalEntry",
             "module": "planar-compass-classes"
         }
