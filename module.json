@@ -8,7 +8,7 @@
     "compatibleCoreVersion": "10",
     "compatibility": {
         "minimum": "10",
-        "verified": "10.284",
+        "verified": "10.285",
         "maximum": "10"
       },
       "authors": [
@@ -36,6 +36,12 @@
             "module": "planar-compass-classes"
         }
     ],
+  "relationships.requires": [
+    {
+      "id": "compendium-folders",
+      "manifest": "https://raw.githubusercontent.com/earlSt1/vtt-compendium-folders/09x-update/module.json",
+      "type": "module"
+    },
   "url": "",
   "manifest": "",
   "download": ""
