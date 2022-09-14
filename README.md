@@ -12,6 +12,8 @@ Sailor Abilities as well as Psionic Powers!
 
 Each class has its own abilities and journal entry for progression contained.
 
+Compendium Folders is now a requirement for this module: https://github.com/earlSt1/vtt-compendium-folders
+
 For any questions on the module reach out on Discord to: Jaguar#8265
 
 Additionally, I'd like to make sure to mention the contributors below for the workflow that I use for this module: https://github.com/League-of-Foundry-Developers/FoundryVTT-Module-Template/graphs/contributors
