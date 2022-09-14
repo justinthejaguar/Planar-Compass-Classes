@@ -36,14 +36,7 @@
             "module": "planar-compass-classes"
         }
     ],
-  "relationships.requires": [
-    {
-      "id": "compendium-folders",
-      "manifest": "https://raw.githubusercontent.com/earlSt1/vtt-compendium-folders/09x-update/module.json",
-      "type": "module"
-    },
   "url": "",
   "manifest": "",
   "download": ""
-  ]
 }
