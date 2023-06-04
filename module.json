@@ -1,42 +1,40 @@
 {
-    "name": "planar-compass-classes",
-    "title": "Planar Compass Class Options",
-    "description": "This is a compendium which incorporates the Planar Compass Zine Classes from the great minds at Planar Compass.",
-    "author": "JustintheJaguar",
-    "version": "1.0",
-    "minimumCoreVersion": "0.5.5",
-    "compatibleCoreVersion": "10",
-    "compatibility": {
-        "minimum": "10",
-        "verified": "10.288",
-        "maximum": "10"
-      },
-      "authors": [
-        {
-          "name": "JustintheJaguar"
-        }
-      ],
-    "packs": [
-        {
-            "name": "items",
-            "label": "Planar Compass Classes and Psionics",
-            "path": "packs/items.db",
-            "entity": "Item",
-            "system": ["ose"],
-            "type": "Item",
-            "module": "planar-compass-classes"
-        },
-        {
-            "name": "journalentries",
-            "label": "Planar Compass Progression and Psionics",
-            "path": "packs/journalentries.db",
-            "entity": "JournalEntry",
-            "system": ["ose"],
-            "type": "JournalEntry",
-            "module": "planar-compass-classes"
-        }
-    ],
+  "title": "Planar Compass Class Options",
+  "description": "This is a compendium which incorporates the Planar Compass Zine Classes from the great minds at Planar Compass.",
+  "version": "version 11",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "11.300",
+    "maximum": "11"
+  },
+  "authors": [
+    {
+      "name": "JustintheJaguar",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "items",
+      "label": "Planar Compass Classes and Psionics",
+      "path": "packs/items.db",
+      "system": "ose",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "journalentries",
+      "label": "Planar Compass Progression and Psionics",
+      "path": "packs/journalentries.db",
+      "system": "ose",
+      "type": "JournalEntry",
+      "private": false,
+      "flags": {}
+    }
+  ],
   "url": "",
   "manifest": "",
-  "download": ""
+  "download": "",
+  "id": "planar-compass-classes"
 }
