@@ -1,40 +1,67 @@
 {
   "title": "Planar Compass Class Options",
   "description": "This is a compendium which incorporates the Planar Compass Zine Classes from the great minds at Planar Compass.",
-  "version": "version 11",
+  "version": "11",
   "compatibility": {
     "minimum": "10",
-    "verified": "11.315",
-    "maximum": "11"
+    "verified": "12.343",
+    "maximum": "12"
   },
   "authors": [
     {
       "name": "JustintheJaguar",
+      "discord": "thejaguar42",
       "flags": {}
     }
   ],
   "packs": [
     {
       "name": "items",
-      "label": "Planar Compass Classes and Psionics",
-      "path": "packs/items.db",
-      "system": "ose",
+      "label": "Planar Compass Abilities",
+      "path": "packs/items",
       "type": "Item",
-      "private": false,
-      "flags": {}
+      "system": "ose",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
       "name": "journalentries",
-      "label": "Planar Compass Progression and Psionics",
-      "path": "packs/journalentries.db",
-      "system": "ose",
+      "label": "Planar Compass Classes",
+      "path": "packs/journalentries",
       "type": "JournalEntry",
-      "private": false,
-      "flags": {}
+      "system": "ose",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "planar-compass-classes-and-psionics",
+      "label": "Planar Compass Abilities",
+      "path": "packs/planar-compass-classes-and-psionics",
+      "type": "Item",
+      "system": "bfs",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "planar-compass-progression-and-psionics",
+      "label": "Planar Compass Classes",
+      "path": "packs/planar-compass-progression-and-psionics",
+      "type": "JournalEntry",
+      "system": "bfs",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     }
   ],
-  "url": "",
-  "manifest": "",
-  "download": "",
+  "url": "https://github.com/justinthejaguar/Planar-Compass-Classes",
+  "manifest": "https://github.com/justinthejaguar/Planar-Compass-Classes/releases/latest/download/module.json",
+  "download": "https://github.com/justinthejaguar/Planar-Compass-Classes/releases/download/11/module.zip",
   "id": "planar-compass-classes"
 }

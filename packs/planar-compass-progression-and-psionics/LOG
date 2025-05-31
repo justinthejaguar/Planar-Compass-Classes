@@ -1,0 +1,8 @@
+2025/05/31-19:05:58.276358 30b927000 Recovering log #8
+2025/05/31-19:05:58.276734 30b927000 Delete type=3 #6
+2025/05/31-19:05:58.276779 30b927000 Delete type=0 #8
+2025/05/31-19:20:00.486822 3058a3000 Level-0 table #13: started
+2025/05/31-19:20:00.486942 3058a3000 Level-0 table #13: 0 bytes OK
+2025/05/31-19:20:00.487113 3058a3000 Delete type=0 #11
+2025/05/31-19:20:00.487858 3058a3000 Manual compaction at level-0 from '!journal!jv3rh1h6cIL9UUNZ' @ 72057594037927935 : 1 .. '!journal.pages!jv3rh1h6cIL9UUNZ.W0qOXhkOkYGrXLOV' @ 0 : 0; will stop at (end)
+2025/05/31-19:20:00.488150 3058a3000 Manual compaction at level-1 from '!journal!jv3rh1h6cIL9UUNZ' @ 72057594037927935 : 1 .. '!journal.pages!jv3rh1h6cIL9UUNZ.W0qOXhkOkYGrXLOV' @ 0 : 0; will stop at (end)
